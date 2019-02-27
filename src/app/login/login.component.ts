@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class LoginComponent implements OnInit {
    name:any = {};
    arr:any = [];
+   term:any;
+   time:any
   constructor() { }
 
   ngOnInit() {
@@ -17,7 +19,8 @@ export class LoginComponent implements OnInit {
     console.log(JSON.stringify(this.arr));
     for(var i=0;i<=this.arr.length;i++){
       console.log(this.arr[i]);
-    }
+    }    
+    
     
   }
 
